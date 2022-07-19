@@ -1,0 +1,10 @@
+//各ディレクトリの読み込み　
+
+// config の読み込み
+@use "./config/index" as config;
+
+// globaの読み込み
+@use "./global/index" as global;
+
+//  commonの読み込み
+@use "./common/index" as common;
