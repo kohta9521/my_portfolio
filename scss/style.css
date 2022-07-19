@@ -1,20 +1,7 @@
 @charset "UTF-8";
 .header {
   width: 100%;
-  height: 100px;
-  background-color: black;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-}
-.header__logo {
-  width: 200px;
-  height: 80px;
-  font-size: 1rem;
-  text-align: left;
-}
-.header__logo--txt {
-  margin: auto;
+  height: 120px;
 }
 
 /*!
@@ -341,4 +328,24 @@ video {
   background-color: #b3d4fc; /* Required when declaring ::selection */
   color: #000;
   text-shadow: none;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
 }/*# sourceMappingURL=style.css.map */
