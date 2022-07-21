@@ -14,10 +14,11 @@
     width: 200px;
     height: 100px;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     margin-left: 120px;
     margin-top: 30px;
+    font-family: 'Oswald', sans-serif;
 }
 .sec__header--nav {
     width: 500px;
@@ -36,4 +37,57 @@
     color: white;
     font-size: 14px;
     font-weight: 550;
+    font-family: 'Oswald', sans-serif;
+}
+
+.sec__side {
+    position: relative;
+    top: 40px;
+    left: -210px;
+    width: 600px;
+    height: 250px;
+    transform: rotate(-90deg);
+
+}
+.sec__side h1 {
+    font-weight: 800;
+    font-size: 130px;
+    line-height: 170px;
+    color: rgba(255, 255, 255, 0.23);
+}
+
+.sec__content {
+    position: relative;
+    top: 145px;
+    left: 930px;
+    width: 480px;
+    height: 220px;
+    background: rgba(171, 59, 250, 0.9);
+    backdrop-filter: blur(4px);
+    border-radius: 5px;
+}
+.sec__content h3 {
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    display: block;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.sec__content h2 {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 54px;
+    color: white;
+    display: block;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+.sec__content p {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 22px;
+    color: white;
+    padding-left: 25px;
+    padding-top: 10px;
 }
