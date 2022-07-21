@@ -1,22 +1,41 @@
+  /* General Styling */
+body {
+    font-size: 4rem;
+    text-align: center;
+    color: #fff;
+}
+.area:nth-child(even) {
+    background-color: #0db;
+}
+.area:nth-child(odd) {
+    background-color: #0bd;
+}
 .container {
     overflow: auto;
     scroll-snap-type: y mandatory;
     height: 100vh;
-  }
-  .area {
+}
+.area {
     scroll-snap-align: start;
     height: 100vh;
-  }
-  
-  /* General Styling */
-  body {
-    font-size: 4rem;
-    text-align: center;
-    color: #fff;
-  }
-  .area:nth-child(even) {
-    background-color: #0db;
-  }
-  .area:nth-child(odd) {
-    background-color: #0bd;
-  }
+}
+
+/* START SEC1
+------------------------- */
+
+/* END SEC1
+------------------------- */
+
+
+/* START SEC2
+------------------------- */
+
+/* END SEC2
+------------------------- */
+
+
+/* START SEC3
+------------------------- */
+
+/* END SEC3
+------------------------- */
