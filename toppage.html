@@ -6,7 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -14,10 +19,10 @@
     <section class="sec__1">
         <div class="sec__header">
             <div class="sec__header--title">
-                Kohta<br>Portfolio Site
+                <h2>Kohta<br>Portfolio Site</h2>
             </div>
             <div class="sec__header--nav">
-                <ul>
+                <ul class="sec__header--navi">
                     <li class="sec__header--item"><a href="">Home</a></li>
                     <li class="sec__header--item"><a href="">About</a></li>
                     <li class="sec__header--item"><a href="">Portfolio</a></li>
@@ -34,28 +39,24 @@
                 <h2>PROGRAMING</h2>
                 <p>Frontside </p>
                 <div>
-                    <span></span>
+                    <div class="border1"></div>
                     <button>MORE</button>
                 </div>
             </div>
             <div class="sec__bottom">
                 <h3>01</h3>
-                <span></span>
+                <div class="border2"></div>
                 <h3>02</h3>
             </div>
+
+            <svg class="arrows">
+                <path class="a1" d="M0 0 L30 32 L60 0"></path>
+                <path class="a2" d="M0 20 L30 52 L60 20"></path>
+                <path class="a3" d="M0 40 L30 72 L60 40"></path>
+              </svg>
+
     </section>
     <!-- END PAGE1 -->
-
-    <!-- START PAGE2 -->
-    <section class="sec__2">
-
-    </section>
-    <!-- END PAGE2 -->
-
-    <!-- START PAGE3 -->
-    <section class="sec__3">
-
-    </section>
     <!-- END PAGE3 -->
 </body>
 </html>
