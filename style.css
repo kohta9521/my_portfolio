@@ -1,0 +1,15 @@
+.sec__1 {
+    width: 100%;
+    height: 100vh;
+    background: url(./assets/img/toppage.jpg);
+    background-size: cover;
+}
+.sec__header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.sec__header--title {
+    width: 200px;
+    height: 100px;
+}
