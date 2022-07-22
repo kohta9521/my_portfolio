@@ -1,0 +1,90 @@
+.container {
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+.area {
+    scroll-snap-align: start;
+    height: 100vh;
+}
+
+/* START SEC1
+------------------------- */
+.sec__1 {
+    background: url(./assets/img/toppage.jpg);
+    background-size: cover;
+}
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+.header__logo {
+    width: 150px;
+    height: 100px;
+    margin-left: 130px;
+}
+.header__logo h2 {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 21px;
+    color: white;
+    padding-top: 40px;
+}
+.header__list {
+    width: 500px;
+    height: 100px;
+}
+.header__nav {
+    display: flex;
+}
+.header__nav--item {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    margin-right: 40px;
+    padding-top: 70px;
+    color: white;
+}
+
+.side__logo {
+    position: relative;
+    left: -210px;
+    top: 170px;
+    width: 600px;
+    height: 250px;
+    transform: rotate(-90deg);
+    margin-left: 0;
+}
+.side__logo h1 {
+    font-weight: 800;
+    font-size: 150px;
+    line-height: 170px;
+    color: rgba(255, 255, 255, 0.23);
+}
+/* END SEC1
+------------------------- */
+
+
+/* START SEC2
+------------------------- */
+.sec__2 {
+    background: url(/assets/img/video.jpg);
+    background-size: cover;
+}
+
+/* END SEC2
+------------------------- */
+
+
+/* START SEC3
+------------------------- */
+.sec__3 {
+    background: url(/assets/img/backside.jpg);
+    background-size: cover;
+}
+
+/* END SEC3
+------------------------- */
