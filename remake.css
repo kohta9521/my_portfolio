@@ -64,6 +64,60 @@
     line-height: 170px;
     color: rgba(255, 255, 255, 0.23);
 }
+
+.sec__content {
+    position: relative;
+    top: 250px;
+    left: 980px;
+    width: 480px;
+    height: 220px;
+    background: rgba(171, 59, 250, 0.9);
+    backdrop-filter: blur(4px);
+    border-radius: 5px;
+    z-index: 0;
+}
+.sec__content h3 {
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    display: block;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.sec__content h2 {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 54px;
+    color: white;
+    display: block;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+.sec__content p {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 22px;
+    color: white;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+.border1 {
+    position: relative;
+    top: 30px;
+    left: 25px;
+    width: 170px;
+    height: 3px;
+    border-bottom: 1px solid #FFFFFF;
+}
+.sec__content button {
+    position: relative;
+    top: 20px;
+    left: 230px;
+    width: 200px;
+    height: 20px;
+    color: white;
+}
+
 /* END SEC1
 ------------------------- */
 
