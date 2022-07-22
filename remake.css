@@ -243,7 +243,7 @@ body {
 .side__logo--2 {
     position: relative;
     left: 1190px;
-    top: 40px;
+    top: 30px;
     width: 600px;
     height: 250px;
     transform: rotate(-90deg);
@@ -340,5 +340,20 @@ body {
     color: white;
 }
 
+.side__logo--3 {
+    position: relative;
+    left: -198px;
+    top: 250px;
+    width: 600px;
+    height: 250px;
+    transform: rotate(-90deg);
+    margin-left: 0;
+}
+.side__logo--3 h1 {
+    font-weight: 800;
+    font-size: 150px;
+    line-height: 170px;
+    color: rgba(255, 255, 255, 0.23);
+}
 /* END SEC3
 ------------------------- */
