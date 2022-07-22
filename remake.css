@@ -50,13 +50,17 @@
 }
 
 .side__logo {
+    position: relative;
+    left: -210px;
+    top: 170px;
     width: 600px;
     height: 250px;
     transform: rotate(-90deg);
+    margin-left: 0;
 }
 .side__logo h1 {
     font-weight: 800;
-    font-size: 130px;
+    font-size: 150px;
     line-height: 170px;
     color: rgba(255, 255, 255, 0.23);
 }
